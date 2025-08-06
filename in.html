@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CocoGuardAI - Healthcare Assistant</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <h1>Multimodal AI-Based Healthcare Assistant</h1>
+    <form id="dataForm">
+        <label for="xray">Upload X-ray/CT Image:</label>
+        <input type="file" name="xray" id="xray"><br><br>
+
+        <label for="notes">Clinical Notes:</label><br>
+        <textarea name="notes" id="notes" rows="4" cols="50"></textarea><br><br>
+
+        <label for="vitals">Vitals (JSON format):</label><br>
+        <textarea name="vitals" id="vitals" rows="4" cols="50">{ "heart_rate": 72, "bp": "120/80" }</textarea><br><br>
+
+        <label for="voice">Upload Patient Voice Sample:</label>
+        <input type="file" name="voice" id="voice"><br><br>
+
+        <button type="submit">Analyze</button>
+    </form>
+
+    <div id="output"></div>
+
+    <script>
+        const form = document.getElementById('dataForm');
+        form.addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const formData = new FormData(form);
+            const response = await fetch('/analyze', {
+                method: 'POST',
+                body: formData
+            });
+            const result = await response.json();
+            document.getElementById('output').innerHTML = `
+                <h3>Summary:</h3> <p>${result.summary}</p>
+                <h3>Alert:</h3> <p>${result.alert}</p>
+                <h3>Diagnosis:</h3> <p>${result.diagnosis}</p>
+                <h3>Recommendation:</h3> <p>${result.recommendation}</p>
+            `;
+        });
+    </script>
+</body>
+</html>

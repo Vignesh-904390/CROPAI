@@ -1,0 +1,121 @@
+{
+  "Bud Rot": {
+    "fertilizer": "NPK 3%",
+    "water": "75%",
+    "medicine": ["Bordeaux paste", "Fungicide spray (Mancozeb)"],
+    "organic_medicine": ["Trichoderma", "Neem extract"],
+    "prevention": "Improve drainage; avoid water stagnation; apply Bordeaux mixture during monsoon."
+  },
+  "Crown Choking": {
+    "fertilizer": "Zinc + Boron supplements",
+    "water": "80%",
+    "medicine": ["Carbofuran (for nematodes)", "Balanced micronutrients"],
+    "organic_medicine": ["Neem cake", "Vermicompost"],
+    "prevention": "Ensure proper nutrient supply and manage nematodes early."
+  },
+  "Leaf Spot / Blight": {
+    "fertilizer": "Urea 2%",
+    "water": "70%",
+    "medicine": ["Copper oxychloride", "Neem oil"],
+    "organic_medicine": ["Neem oil", "Panchagavya"],
+    "prevention": "Remove and destroy infected leaves; ensure proper spacing and aeration."
+  },
+  "Grey Leaf Blight": {
+    "fertilizer": "Compost + Urea",
+    "water": "70%",
+    "medicine": ["Chlorothalonil spray", "Sanitation of infected leaves"],
+    "organic_medicine": ["Cow dung slurry", "Trichoderma spray"],
+    "prevention": "Prune infected fronds; maintain hygiene in plantation."
+  },
+  "Yellow Leaf": {
+    "fertilizer": "Zinc Sulphate + Borax 1%",
+    "water": "80%",
+    "medicine": ["Tetracycline injection (experimental)", "Vector control (insecticides)"],
+    "organic_medicine": ["Neem-based bio-pesticides"],
+    "prevention": "Monitor and control plant hoppers; use certified disease-free seedlings."
+  },
+  "Lethal Yellowing": {
+    "fertilizer": "Organic NPK + Zinc",
+    "water": "80%",
+    "medicine": ["Oxytetracycline (where used)", "Remove infected trees"],
+    "organic_medicine": ["Compost tea", "Neem formulations"],
+    "prevention": "Avoid planting in endemic regions; plant resistant varieties."
+  },
+  "Tanjore Wilt": {
+    "fertilizer": "FYM + NPK 4%",
+    "water": "80%",
+    "medicine": ["Trichoderma viride", "Neem cake"],
+    "organic_medicine": ["Trichoderma enriched compost"],
+    "prevention": "Avoid injuries to roots; improve soil aeration; apply organic amendments."
+  },
+  "steam bleeding": {
+    "fertilizer": "NPK 5%",
+    "water": "80%",
+    "medicine": ["Trichoderma viride", "Paste dressing with Bordeaux paste"],
+    "organic_medicine": ["Cow dung paste with lime"],
+    "prevention": "Avoid mechanical injuries; apply protective paste regularly."
+  },
+  "red ring": {
+    "fertilizer": "NPK 3%",
+    "water": "75%",
+    "medicine": ["Fipronil for vector control", "Remove infected palms"],
+    "organic_medicine": ["Neem oil for vector control"],
+    "prevention": "Monitor and manage weevil vectors regularly."
+  },
+  "bole root": {
+    "fertilizer": "Organic manure + K 2%",
+    "water": "85%",
+    "medicine": ["Soil drenching with Trichoderma", "Remove decayed tissues"],
+    "organic_medicine": ["Trichoderma slurry"],
+    "prevention": "Maintain good drainage; remove and destroy infected parts."
+  },
+  "Basal Stem Rot / Root Rot": {
+    "fertilizer": "NPK 5% + Neem cake",
+    "water": "85%",
+    "medicine": ["Soil drenching with fungicide", "Improve drainage"],
+    "organic_medicine": ["Trichoderma", "Neem decoction"],
+    "prevention": "Avoid waterlogging; use disease-free planting material."
+  },
+  "Wilt Disease / Root Wilt": {
+    "fertilizer": "Compost + NPK 4%",
+    "water": "90%",
+    "medicine": ["Organic mulch", "Soil drenching", "Control red palm weevil"],
+    "organic_medicine": ["Trichoderma", "Neem cake"],
+    "prevention": "Monitor pests like red palm weevil; apply organic soil conditioners."
+  },
+  "anaberoga": {
+    "fertilizer": "Zinc, Boron, FYM",
+    "water": "80%",
+    "medicine": ["Apply lime and compost", "Trichoderma application"],
+    "organic_medicine": ["Lime + organic compost mix"],
+    "prevention": "Maintain soil pH and fertility; prevent fungal attacks with bioagents."
+  },
+  "Seed Rot": {
+    "fertilizer": "FYM in nursery bed",
+    "water": "Controlled moisture",
+    "medicine": ["Seed treatment with Thiram or Captan"],
+    "organic_medicine": ["Neem oil seed soak"],
+    "prevention": "Use well-drained nursery beds; treat seeds before sowing."
+  },
+  "Seedling Blight": {
+    "fertilizer": "Balanced nursery nutrition",
+    "water": "Controlled",
+    "medicine": ["Fungicide spray", "Improve nursery hygiene"],
+    "organic_medicine": ["Biofungicide (Trichoderma)"],
+    "prevention": "Avoid overcrowding; maintain hygiene and airflow in nursery."
+  },
+  "Other": {
+    "fertilizer": "Balanced nutrients",
+    "water": "Moderate",
+    "medicine": ["Consult local expert", "General preventive care"],
+    "organic_medicine": ["Neem extract", "Panchagavya"],
+    "prevention": "Maintain overall tree health and hygiene."
+  },
+  "Healthy": {
+    "fertilizer": "Normal schedule",
+    "water": "Regular",
+    "medicine": ["None"],
+    "organic_medicine": ["None"],
+    "prevention": "Continue regular care; monitor for early signs of disease or pests."
+  }
+}
