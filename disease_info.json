@@ -117,5 +117,26 @@
     "medicine": ["None"],
     "organic_medicine": ["None"],
     "prevention": "Continue regular care; monitor for early signs of disease or pests."
+  },
+   "root wilt": {
+    "fertilizer": "Well-rotted FYM + NPK 4%",
+    "water": "Maintain optimum moisture",
+    "medicine": ["Apply Trichoderma to root zone", "Soil drenching with biofungicide"],
+    "organic_medicine": ["Trichoderma compost", "Neem cake"],
+    "prevention": "Improve soil aeration; avoid overwatering; manage nutrient balance."
+  },
+  "rhinoceros ": {
+    "fertilizer": "Balanced NPK + FYM",
+    "water": "Regular",
+    "medicine": ["Naphthalene balls", "Insecticidal dusting in crown"],
+    "organic_medicine": ["Neem oil spray", "Traps with pheromones"],
+    "prevention": "Regular monitoring and removal of beetles; clean crown region."
+  },
+  "White Spot": {
+    "fertilizer": "Potassium-rich fertilizer",
+    "water": "75%",
+    "medicine": ["Fungicide like Mancozeb", "Remove affected fronds"],
+    "organic_medicine": ["Neem-based spray", "Trichoderma foliar application"],
+    "prevention": "Avoid overhead irrigation; improve ventilation and reduce humidity."
   }
 }
