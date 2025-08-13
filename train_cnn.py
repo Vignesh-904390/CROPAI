@@ -38,7 +38,7 @@ optimizer = torch.optim.Adam(model.parameters(), lr=0.001)
 
 # ===== Step 7: Train the Model =====
 print("🚀 Starting training...")
-for epoch in range(150):  # 🔁 You can increase this for better accuracy
+for epoch in range(200):  # 🔁 You can increase this for better accuracy
     total_loss = 0
     model.train()
     for images, labels in loader:
@@ -51,7 +51,7 @@ for epoch in range(150):  # 🔁 You can increase this for better accuracy
         optimizer.step()
         total_loss += loss.item()
 
-    print(f" Epoch [{epoch+1}/150], Loss: {total_loss:.4f}")
+    print(f" Epoch [{epoch+1}/200], Loss: {total_loss:.4f}")
 
 # ===== Step 8: Save the Trained Model =====
 print(f"💾 Saving model to {model_path}...")
