@@ -205,6 +205,7 @@ def predict_video():
                            image_url=None)
 
 # === Run Server ===
-if __name__ == '__main__':
+if __name__ == "__main__":
     app.run()
 
+ 
