@@ -20,7 +20,7 @@
     "organic_medicine": ["Neem oil", "Panchagavya"],
     "prevention": "Remove and destroy infected leaves; ensure proper spacing and aeration."
   },
-  "Grey Leaf Blight": {
+  "grey leaf": {
     "fertilizer": "Compost + Urea",
     "water": "70%",
     "medicine": ["Chlorothalonil spray", "Sanitation of infected leaves"],
@@ -138,5 +138,21 @@
     "medicine": ["Fungicide like Mancozeb", "Remove affected fronds"],
     "organic_medicine": ["Neem-based spray", "Trichoderma foliar application"],
     "prevention": "Avoid overhead irrigation; improve ventilation and reduce humidity."
-  }
+  },
+  "Red_Palm_Weevi": {
+    "fertilizer": "Balanced NPK (Nitrogen-Phosphorus-Potassium) with organic compost to strengthen palms",
+    "water": "Avoid water stagnation around the palm base; maintain 60–70% soil moisture",
+    "medicine": [
+      "Chlorpyrifos 0.2% stem injection",
+      "Carbaryl 0.1% crown drenching",
+      "Imidacloprid root zone treatment"
+    ],
+    "organic_medicine": [
+      "Neem oil emulsion stem injection",
+      "Beauveria bassiana bio-control spray",
+      "Fermented cow urine extract"
+    ],
+    "prevention": "Regularly inspect palms for holes/gummy exudation; avoid mechanical injuries; use pheromone traps; remove and burn heavily infested palms."
+}
+
 }
